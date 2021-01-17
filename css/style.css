@@ -378,6 +378,12 @@ textarea:focus {
   display: inline-block;
   vertical-align: middle;
 }
+.popup__pictures img {
+  display: block;
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
 
 .popup__avatar {
   position: absolute;
